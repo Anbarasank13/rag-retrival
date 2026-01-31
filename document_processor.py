@@ -5,7 +5,7 @@ Extracts document structure, sections, and hierarchical information
 
 import re
 from typing import List, Dict, Any
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain.schema import Document
 from collections import defaultdict
 
