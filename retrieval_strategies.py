@@ -4,7 +4,7 @@ Combines dense (semantic) and sparse (keyword) retrieval methods
 """
 
 from typing import List, Dict, Any
-from langchain.schema import Document
+from langchain_core.documents import Document
 from langchain_community.vectorstores import FAISS
 from rank_bm25 import BM25Okapi
 import numpy as np
