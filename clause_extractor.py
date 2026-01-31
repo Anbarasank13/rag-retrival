@@ -5,7 +5,7 @@ Specialized extraction of legal clauses from documents
 
 import re
 from typing import List, Dict, Any
-from langchain.schema import Document
+from langchain_core.documents import Document
 
 
 class ClauseExtractor:
